@@ -110,23 +110,5 @@
     </div>
   </main>
 
-  <footer>
-    tap on image to zoom
-  </footer>
-
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" src="" alt="확대 이미지">
-  </div>
-
-  <script>
-    function openLightbox(src) {
-      document.getElementById('lightbox-img').src = src;
-      document.getElementById('lightbox').classList.add('active');
-    }
-    function closeLightbox() {
-      document.getElementById('lightbox').classList.remove('active');
-    }
-  </script>
-
 </body>
 </html>
